@@ -7,7 +7,7 @@ app.use(express.static("public"))
 
 // define the first route
 app.get("/", function (req, res) {
-  res.send(  document.getElementById('root'))
+  res.send( 'la concha de la mona')
 })
 
 // start the server listening for requests
