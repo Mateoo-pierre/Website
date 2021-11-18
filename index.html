@@ -8,7 +8,6 @@
     <title>Mateo M.</title>
 </head>
 <body>
-
     <div class="menu">
         <div id="header">
             <div id="logo">
@@ -19,16 +18,39 @@
         </div>
         <div id="menu-items">
             <div class="item">
-                <a href="#">
-                    <div class="icon"> <img src="./icons/home(1).png" alt="Home"></div>
-                </a>
-                <a href="#tecnologias">
-                    <div class="icon"> <img src="./icons/user.png" alt="Home"></div>
-                </a>
-                <a href="#proyectos">
-                    <div class="icon"> <img src="./icons/layers(1).png" alt="Home"></div>
-                </a>
-            </div>
+                <div class="container-btn">
+                    <a href="#">
+                        <div class="icon"> <img class = 'icono'src="./icons/home(1).png" alt="Home"></div>
+                    </a>
+                        <div class="capa-home">
+                            <span>home</span>
+                        </div>
+                    </div>
+                    <div class="container-btn">
+                        <a href="#tecnologias">
+                            <div class="icon"> <img src="./icons/code(1).png" alt="Code"></div>
+                        </a>
+                        <div class="capa-home">
+                            <span>code</span>
+                        </div>
+                    </div>
+                    <div class="container-btn">
+                        <a href="#proyectos">
+                            <div class="icon"> <img src="./icons/layers(1).png" alt="Proyects"></div>
+                        </a>
+                        <div class="capa-home">
+                            <span>proyect</span>
+                        </div>
+                    </div>
+                    <div class="container-btn">
+                        <a href="#">
+                            <div class="icon"> <img src="./icons/user.png" alt="User"></div>
+                        </a>
+                        <div class="capa-home">
+                            <span>my</span>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
     <div class="body">
@@ -57,10 +79,11 @@
           <br>
             <span>&lt; /html &gt;</span>
         </div>
-        <div id="tecnologias" class="tec_title">
-            <h1 >Tecnologias</h1>
-        </div>
-        <div class="tec_body">
+        <span id="tecnologias">.</span>
+        <div class="tec_title">
+                <h1 >Tecnologias</h1>
+            </div>
+            <div class="tec_body">
                 <img src="icons/HTML5_Badge.svg.png">
                 <img src="icons/CSS3_logo.svg.png" alt="">
                 <img src="icons/2560px-Sass_Logo_Color.svg.png" alt="">
@@ -79,18 +102,18 @@
                 <p>MYSQL</p>
                 <p class="p_left">SEQUELIZE</p>
                 <p class="figma_left">FIGMA</p>
-        </div>
-        <div id="proyectos" class="proy_title">
-            <h1>Proyectos</h1>
-        </div>
-        <div class="proy_body">
-            <figure>
-                <img src="icons/daniel-korpai-pKRNxEguRgM-unsplash.jpg">
-                <div class="capa">
-                    <h1>Nombre del proyecto</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat laboriosam, minus libero necessitatibus alias sit quibusdam quisquam nesciunt asperiores, rem esse accusamus possimus ab nihil nam perferendis, iure natus soluta?</p>
-                </div>
-            </figure>
+            </div>
+            <div id="proyectos" class="proy_title">
+                <h1>Proyectos</h1>
+            </div>
+            <div class="proy_body">
+                <figure>
+                    <img src="icons/daniel-korpai-pKRNxEguRgM-unsplash.jpg">
+                    <div class="capa">
+                        <h1>Nombre del proyecto</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat laboriosam, minus libero necessitatibus alias sit quibusdam quisquam nesciunt asperiores, rem esse accusamus possimus ab nihil nam perferendis, iure natus soluta?</p>
+                    </div>
+                </figure>
             <figure>
                 <img src="icons/niclas-illg-FnfGRMXENYg-unsplash.jpg">
                 <div class="capa">
@@ -107,6 +130,5 @@
             </figure>
         </div>
     </div>
-    <div id="root"></div>
 </body>
 </html>
