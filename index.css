@@ -338,4 +338,8 @@ body {
         margin-top: 100px;
         width: 80%;
     }
+
+    .proy_body figure{
+        height: 115%;
+    }
 }
