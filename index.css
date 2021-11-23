@@ -391,6 +391,7 @@ body {
     /*tecnologias*/
 
     .tec_title{ 
+        margin-top: 70%;
         font-size: 17px; 
     }
     
@@ -411,7 +412,7 @@ body {
     /*proyects*/
 
     .proy_title{
-        margin-top: 100px;
+        margin-top: 70%;
         font-size: 17px;
     }
 
@@ -426,6 +427,9 @@ body {
 
     /*contac*/
 
+    .contac-title{
+        margin-top: 70%;
+    }
 
     .contac-body{
         margin-top: 10%;
@@ -441,6 +445,10 @@ body {
     }
 
     /*about*/
+
+    .about-title{
+        margin-top: 70%;
+    }
     
     .about-body{
         margin-top: 10%;
@@ -455,6 +463,7 @@ body {
     }
     
     .about-study h2{
+        margin-top: 30%;
         color: #00FFC2;
         font-family: 'Pacifico', cursive;
     }
@@ -469,7 +478,8 @@ body {
         font-family: 'Josefin Sans', sans-serif;
     }
     
-    .about-exp H2{
+    .about-exp h2{
+        margin-top: 30%;
         color: #00FFC2;
         font-family: 'Pacifico', cursive;
     }
