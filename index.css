@@ -464,6 +464,7 @@ body {
     }
     
     .about-study h2{
+        font-size: 20px;
         margin-top: 30%;
         color: #00FFC2;
         font-family: 'Pacifico', cursive;
@@ -481,6 +482,7 @@ body {
     
     .about-exp h2{
         margin-top: 30%;
+        font-size: 20px;
         color: #00FFC2;
         font-family: 'Pacifico', cursive;
     }
