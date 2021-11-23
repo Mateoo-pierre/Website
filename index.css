@@ -426,7 +426,6 @@ body {
 
     /*contac*/
 
-   
 
     .contac-body{
         margin-top: 10%;
@@ -439,5 +438,49 @@ body {
     .contac-body img{
         margin: 10px;
         width: 10%;
+    }
+
+    /*about*/
+    
+    .about-body{
+        margin-top: 10%;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .about-two{
+       display: block;
+    }
+    
+    .about-study h2{
+        color: #00FFC2;
+        font-family: 'Pacifico', cursive;
+    }
+    
+    .about-study h3{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .about-study p{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .about-exp H2{
+        color: #00FFC2;
+        font-family: 'Pacifico', cursive;
+    }
+    
+    .about-exp h3{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .about-exp p{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
     }
 }
