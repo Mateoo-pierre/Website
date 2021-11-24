@@ -396,7 +396,7 @@ body {
     }
     
     .tec_body{
-        margin-top: 100px;
+        margin-top: 150px;
         margin-left: 10%;
         display: grid;
         grid-template-columns:repeat(3, auto);
@@ -410,9 +410,37 @@ body {
     }
 
     /*proyects*/
+    
+    .proy_body {
+        width: 91%;
+        margin-left: 35px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .proy_body figure{
+        position: relative;
+        cursor: pointer;
+        height: 0%;
+        width: 0%;
+        overflow: visible;
+    }
+    
+    .proy_body figure img{
+        width: 240px;
+        border-radius: 2px;
+        height: 240px;
+    }
+
+    .proy_body figure:hover > .capa{
+        opacity: 0;
+        visibility: hidden;
+    }
 
     .proy_title{
-        margin-top: 40%;
+        margin-top: 60%;
         font-size: 17px;
     }
 
@@ -449,11 +477,14 @@ body {
 
     .about-title{
         margin-top: 40%;
+        text-align: left;
+        margin-left: 20px;
     }
     
     .about-body{
+        margin-left: 20px;
         margin-top: 10%;
-        text-align: center;
+        text-align: left;
         font-size: 15px;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
@@ -464,35 +495,49 @@ body {
     }
     
     .about-study h2{
-        font-size: 20px;
-        margin-top: 30%;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 15px;
+        margin-top: 15%;
         color: #00FFC2;
         font-family: 'Pacifico', cursive;
     }
     
     .about-study h3{
+        margin-left: 20px;
+        text-align: left;
+        font-size: 15px;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
     }
     
     .about-study p{
+        margin-left: 20px;
+        text-align: left;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
     }
     
     .about-exp h2{
-        margin-top: 30%;
-        font-size: 20px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 15px;
+        margin-top: 15%;
         color: #00FFC2;
         font-family: 'Pacifico', cursive;
     }
     
     .about-exp h3{
+        margin-left: 20px;
+        text-align: left;
+        font-size: 15px;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
     }
     
     .about-exp p{
+        margin-left: 20px;
+        text-align: left;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
     }
