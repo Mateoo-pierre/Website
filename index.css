@@ -29,6 +29,34 @@ body {
     background-color: black;
 }
 
+#logo:hover > .icons_logo {
+    margin-left: 65px;
+    opacity: 1;
+    background-color: #00ffc3a9;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.icons_logo{
+    margin-left: 40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 65px;
+    height: 121px;
+    background-color: #161616;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease-out;
+
+}
+
+.container_icons_logo {
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+
 #menu-items {
     margin-top: 110px;
 
