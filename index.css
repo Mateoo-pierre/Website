@@ -404,6 +404,12 @@ body {
 }
 
 @media screen and (max-width: 800px){
+    /*logo*/
+    #logo:hover > .icons_logo {
+        opacity: 0;
+        visibility: hidden;
+    }
+        
     /*home*/
     .body{
         margin-top: 0px;
@@ -480,49 +486,58 @@ body {
     }
 
     /*proyects*/
-    
     .proy_body {
-        width: 91%;
-        margin-left: 35px;
+        margin-top: 10%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-    
-    .proy_body figure{
-        position: relative;
-        cursor: pointer;
-        height: 0%;
-        width: 0%;
-        overflow: visible;
-    }
-    
-    .proy_body figure img{
-        width: 240px;
-        border-radius: 2px;
-        height: 240px;
+        gap: 0px;
+        margin-left: 3%;
     }
 
-    .proy_body figure:hover > .capa{
+    .proy_body figure img {
+        width: 70%;
+        height: 70%;
+        transition: none;
+    }
+
+    .proy_body figure .capa {
+        position: absolute;
+        top: 0;
+        width: 65%;
+        height: 100%;
+        color: white;
+        background: none;
+        transition: none;
+        opacity: 1;
+        visibility: visible;
+        text-align: center;
+    }
+
+    .proy_body figure .capa h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        transition: none;
+        margin-top: 110%;
         opacity: 0;
-        visibility: hidden;
     }
 
-    .proy_title{
-        margin-top: 60%;
-        font-size: 17px;
+    .proy_body figure .capa p {
+        position: fixed;
+        opacity: 0;
     }
 
-    .proy_body{
-        margin-top: 100px;
-        width: 80%;
+
+    .proy_body figure:hover > .capa h1 {
+        margin-top: 120.5%;
+        margin-bottom:  0;
     }
 
-    .proy_body figure{
-        height: 115%;
+    .p-ver{
+        margin-left: 6%;
     }
-
+    
     /*contac*/
 
     .contac-title{
